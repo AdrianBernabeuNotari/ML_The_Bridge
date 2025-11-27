@@ -8,7 +8,9 @@ El objetivo principal es demostrar la capacidad de un modelo ligero para realiza
   
 🚀 Estructura del Repositorio  
   
-La estructura del repositorio está organizada para separar el código de la aplicación, los modelos, los datos de prueba y el historial de desarrollo..  
+La estructura del repositorio está organizada para separar el código de la aplicación, los modelos, los datos de prueba y el historial de desarrollo.  
+  
+.  
 ├── app.py                      # Aplicación Streamlit final (principal)  
 ├── yolov8n.pt                  # Modelo YOLOv8n pre-entrenado  
 ├── notebook/                   # Notebooks de Jupyter para pruebas iniciales y validación  
