@@ -1,6 +1,7 @@
 🚗 Proyecto Machine Learning: Detección de Objetos con YOLOv8n  
   
 📋 Descripción General del ProyectoEste repositorio contiene el código y los recursos utilizados para el proyecto final de Machine Learning, enfocado en la detección y monitorización de objetos en tiempo real (Webcam, imágenes y videos) utilizando el modelo pre-entrenado YOLOv8n (Nano) de Ultralytics.  
+  
 El objetivo principal es demostrar la capacidad de un modelo ligero para realizar inferencias rápidas y proporcionar métricas visuales dinámicas (conteo y gráficos de evolución) a través de una aplicación web interactiva desarrollada con Streamlit.  
   
 🚀 Estructura del RepositorioLa estructura del repositorio está organizada para separar el código de la aplicación, los modelos, los datos de prueba y el historial de desarrollo..  
@@ -16,14 +17,18 @@ El objetivo principal es demostrar la capacidad de un modelo ligero para realiza
 ├── LICENCE                     # Licencia del proyecto (MIT)  
 └── README.md                   # Este archivo  
   
-🛠️ Requisitos e InstalaciónPara ejecutar la aplicación Streamlit y reproducir la detección, necesitas tener Python instalado (se recomienda Python 3.9+).  
-Clonar el Repositorio:git clone [https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories]  (https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)  
-cd [nombre-del-repositorio]  
-Instalar Dependencias:pip install -r requirements.txt  
+🛠️ Requisitos e Instalación  
+Para ejecutar la aplicación Streamlit y reproducir la detección, necesitas tener Python instalado (se recomienda Python 3.9+).  
+- Clonar el Repositorio:
+> git clone [https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories](https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories)  
+> cd [nombre-del-repositorio]  
+- Instalar Dependencias:  
+> pip install -r requirements.txt  
 (Asegúrate de crear un archivo requirements.txt con las siguientes librerías: streamlit, ultralytics, opencv-python, pandas, numpy, Pillow).  
   
 ▶️ Uso de la Aplicación (Streamlit)  
 La aplicación principal se ejecuta a través de app.py.  
+  
 Modo Webcam (Live)  
 La aplicación se inicia directamente en modo webcam, mostrando el stream de tu cámara junto a gráficos y contadores en tiempo real.  
 - Asegúrate de que no haya otras aplicaciones utilizando la cámara.  
@@ -45,4 +50,5 @@ La aplicación app.py utiliza Streamlit para ofrecer las siguientes funcionalida
   
 📜 Licencia  
 Este proyecto está bajo la Licencia MIT.  
+  
 Desarrollado para el Bootcamp de Data Science.
