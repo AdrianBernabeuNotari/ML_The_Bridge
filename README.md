@@ -26,14 +26,15 @@ Instalar Dependencias:pip install -r requirements.txt
 La aplicación principal se ejecuta a través de app.py.  
 Modo Webcam (Live)  
 La aplicación se inicia directamente en modo webcam, mostrando el stream de tu cámara junto a gráficos y contadores en tiempo real.  
-Asegúrate de que no haya otras aplicaciones utilizando la cámara.  
-Ejecuta el siguiente comando en tu terminal:  
-streamlit run app.py  
-Una vez cargada en el navegador, selecciona las Clases Activas en la barra lateral y pulsa 🔴 Iniciar Detección.  
+- Asegúrate de que no haya otras aplicaciones utilizando la cámara.  
+- Ejecuta el siguiente comando en tu terminal:  
+> streamlit run app.py  
+- Una vez cargada en el navegador, selecciona las Clases Activas en la barra lateral y pulsa 🔴 Iniciar Detección.  
+  
 Modos Imagen y Video  
 La barra lateral te permite cambiar el modo de detección para:  
-Imagen (Archivo): Sube un archivo JPG o PNG para una detección estática.  
-Video (Archivo): Sube un archivo MP4 o MOV para procesar todo el video y guardar el resultado con las cajas delimitadoras.  
+- Imagen (Archivo): Sube un archivo JPG o PNG para una detección estática.  
+- Video (Archivo): Sube un archivo MP4 o MOV para procesar todo el video y guardar el resultado con las cajas delimitadoras.  
   
 📊 Características de la Interfaz  
 La aplicación app.py utiliza Streamlit para ofrecer las siguientes funcionalidades en tiempo real:  
