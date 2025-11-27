@@ -1,7 +1,7 @@
 🚗 Proyecto Machine Learning: Detección de Objetos con YOLOv8n  
   
 📋 Descripción General del Proyecto  
-
+  
 Este repositorio contiene el código y los recursos utilizados para el proyecto final de Machine Learning, enfocado en la detección y monitorización de objetos en tiempo real (Webcam, imágenes y videos) utilizando el modelo pre-entrenado YOLOv8n (Nano) de Ultralytics.  
   
 El objetivo principal es demostrar la capacidad de un modelo ligero para realizar inferencias rápidas y proporcionar métricas visuales dinámicas (conteo y gráficos de evolución) a través de una aplicación web interactiva desarrollada con Streamlit.  
